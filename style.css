@@ -1,0 +1,72 @@
+.weather_data{
+    display: flex;
+    flex-direction: row;
+    font-size: 25px;
+     
+}
+.weather_img{
+    display: flex;
+    flex-direction: row;
+}
+
+
+.description{
+ margin-left: 20em;
+ font-size: 20px;
+
+}
+.description p{
+ margin-top: 2px;
+ font-size: 25px;
+}
+
+.seven-days{
+    /* vertical-align: middle; */
+    display: flex;
+    
+     /* flex-direction: column; */
+}
+/* h1{
+    font-size: 18px;
+} */
+.today{
+    display: flex;
+    flex-direction:column;
+    margin-left: 2px;
+    /* ertical-align: middle;  */
+}
+.today p{
+   
+    margin: 0px 1px 2px 5px;
+   
+   
+}
+.today div{
+    display: flex;
+    flex-direction: column;
+   
+}
+.today h1{
+   width: 2em;
+   font-size: 18px;
+}
+hr.font1 {
+    border-top: 1px solid grey;
+  }
+
+  @media (min-width: 360px) {
+    body {
+      font-size: 1.0em;
+    }
+  }
+  @media (min-width: 360px) {
+    .description {
+      margin-left:8em;
+      
+      /* display: inline-block; */
+     
+    }
+    
+  }
+ 
+ 
